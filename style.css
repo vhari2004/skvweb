@@ -14,7 +14,35 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    overflow: hidden;
 }
+.subheader{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/im1.jpg);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     overflow: hidden;
+ }
+ .contactme{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/im1.jpg);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     overflow: hidden;
+ }
+ .admissionp{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/im1.jpg);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     overflow: hidden;
+ }
 /*------------------Home------------------*/
 nav{
    display: flex;
@@ -30,7 +58,7 @@ nav img{
     text-align: right;
 }
     .nav-links ul li a:active {
-        color: #e60e0e !important;
+        color: #e60e0e;
     }
 .nav-links ul li{
     list-style: none;
@@ -168,7 +196,7 @@ footer a:hover{
         height: 100vh;
         width: 200px;
         top: 0;
-        right: -200px;
+        right: -205px;
         text-align: left;
         z-index: 2;
         transition: 1s;

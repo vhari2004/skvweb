@@ -29,28 +29,144 @@
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-        <div class="text-box">
-            <h1>Welcome to SKV GHSS NEENDOOR</h1>
-            <p>We are glad to have you here. Explore our website to learn more about us.</p>
-            <a href="about.html" class="hero-btn">Learn More</a>
+    <section class="gallery">
+        <h2>Our Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item" data-description="പ്രവേശനോത്സവം
+            .">
+            <img src="images/im20.jpg" alt="പ്രവേശനോത്സവം
+            ">
+            </div>
+            
+            
+            <div class="gallery-item" data-description="പ്രവേശനോത്സവം.">
+            <img src="images/im17.jpg" alt="പ്രവേശനോത്സവം">
+            </div>            
+
+            <div class="gallery-item" data-description="School Assembly.">
+            <img src="images/im29.jpg" alt="Assembly">
+            </div>
+
+            <div class="gallery-item" data-description="Lahari വിരുദ്ധ പ്രതിജ്ഞ
+            .">
+            <img src="images/im32.jpg" alt="Lahari വിരുദ്ധ പ്രതിജ്ഞ
+            ">
+            </div>
+            <div class="gallery-item" data-description="വായനദിനം.. ഉദ്ഘാടനം
+            ">
+            <img src="images/im21.jpg" alt="വായനദിനം">
+            </div>
+            <div class="gallery-item" data-description="വായനദിനം.. ഉദ്ഘാടനം.">
+                <img src="images/im22.jpg" alt="വായനദിനം.. ഉദ്ഘാടനം">
+            </div>
+            <div class="gallery-item" data-description="വായനദിനം.. ഉദ്ഘാടനം.">
+                <img src="images/im23.jpg" alt="വായനദിനം.. ഉദ്ഘാടനം">
+            </div>
+            <div class="gallery-item" data-description="യോഗാദിനം.">
+                <img src="images/im27.jpg" alt="യോഗാദിനം.">
+            </div>
+            <div class="gallery-item" data-description="യോഗാദിനം..">
+                <img src="images/im26.jpg" alt="യോഗാദിനം.">
+            </div>
+                        <div class="gallery-item" data-description="SSSS.">
+                <img src="images/im35.jpg" alt="SSSS">
+            </div>
+            <div class="gallery-item" data-description="Prayer." style="height: 200px; width: 300px;">
+            <img src="images/im31.jpg" alt="Prayer">
+            </div>
+            <div class="gallery-item" data-description="Little kites" style="height: 200px;" width="300px">
+                <img src="images/im24.jpg" alt="Little kites">
+            </div>
+            <div class="gallery-item" data-description="Little kites." style="height: 200px;" width="300px">
+                <img src="images/im25.jpg" alt="Little kites">
+            </div>
+            <div class="gallery-item" data-description="Flower Show."  style="height: 200px;" width="300px">
+                <img src="images/im33.jpg" alt="Flower Show">
+            </div>
+            <div class="gallery-item" data-description="Flower Show." style="height: 200px;" width="300px">
+                <img src="images/im34.jpg" alt="Flower Show">
+            </div>
+        </div>
         </div>
     </section>
-    <section class="about">
-        <h1>About Us</h1>
-        <p id="mal"><b>എസ്.കെ.വി.ജി.എച്ച്.എസ്.എസ്. നീണ്ടൂർ - ഒരു മികച്ച വിദ്യാഭ്യാസ സ്ഥാപനം</b><br>
-            എസ്.കെ.വി.ജി.എച്ച്.എസ്.എസ്. (SKVGHSS) നീണ്ടൂർ, കോട്ടയം ജില്ലയിലെ ഒരു പ്രമുഖ സർക്കാർ ഹയർ സെക്കൻഡറി സ്കൂളാണ്.<br>1917-ൽ സ്ഥാപിതമായ ഈ വിദ്യാലയം, വിദ്യാർത്ഥികൾക്ക് ഉന്നത നിലവാരമുള്ള വിദ്യാഭ്യാസം നൽകുന്നതിനായി പ്രവർത്തിക്കുന്നു.
-        </p>
-    </section>
-    <section class="admission">
-        <h1>Admission</h1>
-        <p>We are currently accepting applications for the upcoming academic year. Please visit our admission page for more details.</p>
-        <a href="admission.html" class="hero-btn" id="btnad">Apply Now</a>
-    </section>
-    <section class="contact">
-        <h1>Contact Us</h1>
-        <p>If you have any questions or need further information, feel free to reach out to us.</p>
-        <a href="contact.html" class="hero-btn" id="btncon">Get in Touch</a>
-    </section>
+
+    <style>
+ 
+    .gallery {
+        padding: 50px 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+
+    .gallery h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .gallery-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .gallery-item {
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .gallery-item::before {
+        content: attr(data-description);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 1.2rem;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .gallery-item::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        z-index: 1;
+    }
+
+    .gallery-item {
+        position: relative;
+    }
+
+    .gallery-item:hover::before {
+        opacity: 1;
+    }
+
+    .gallery-item:hover::after {
+        opacity: 1;
+    }
+    </style>
     <footer>
         <p>&copy; 2025 SKV GHSS Neendoor. All rights reserved.</p>
         <div class="socials">
