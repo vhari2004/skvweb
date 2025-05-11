@@ -240,12 +240,12 @@ footer a:hover{
         display: block;
         padding: 10px;
         text-align: left;
-        text-justify:newspaper;
-        margin-left: -400px;
+        text-justify: none;
+        margin: 0 auto;
         margin-top: 20px;
-                white-space: nowrap;
-                overflow: visible;
-                z-index: 2;
+        white-space: normal;
+        overflow: visible;
+        max-width: 90%;
 
     }
     dd {
