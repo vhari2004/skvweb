@@ -241,10 +241,11 @@ footer a:hover{
         padding: 10px;
         text-align: left;
         text-justify:newspaper;
-        margin-left: -500px;
-        margin-right: 600px;
+        margin-left: -400px;
         margin-top: 20px;
                 white-space: nowrap;
+                overflow: visible;
+                z-index: 2;
 
     }
     dd {
