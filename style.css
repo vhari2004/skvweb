@@ -16,6 +16,15 @@
     position: relative;
     overflow: hidden;
 }
+.events{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/im40.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
 .subheader{
     min-height: 100vh;
     width: 100%;
@@ -227,7 +236,38 @@ footer a:hover{
         text-align: left;
         text-justify: none;
     }
+    dl{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        text-justify:newspaper;
+        margin-left: -400px;
+        margin-top: 20px;
+                white-space: nowrap;
+
+    }
+    dd {
+        display: block;
+        padding: 10px;
+        text-align: left;
+        text-justify: none;
+        margin-top: 20px;
+        box-sizing: content-box;
+        white-space: nowrap;
+    }
+    dt {
+        display: block;
+        padding: 10px;
+        text-align: left;
+        text-justify: none;
+        margin-top: 20px;
+        box-sizing: content-box;
+    }
+    #hear11{
+        display: none;}
+        
 }
+
 /*-----------------About------------------*/
 .about{
     width: 100%;
